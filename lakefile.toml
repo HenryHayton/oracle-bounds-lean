@@ -1,0 +1,19 @@
+name = "oracle_bounds"
+version = "0.1.0"
+defaultTargets = ["OracleBounds"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+autoImplicit = false
+weak.linter.mathlibStandardSet = false
+maxSynthPendingDepth = 3
+
+# Pinned to the Mathlib release matching lean-toolchain. Do not `lake update` without re-pinning.
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.32.0"
+
+[[lean_lib]]
+name = "OracleBounds"
