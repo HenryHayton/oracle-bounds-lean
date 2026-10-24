@@ -9,7 +9,7 @@ how many queries an attacker needs to (i) decide whether a given person is liste
 people who never appear, and (iii) recover stored templates from nothing; and they prove what the
 best known attacks achieve, so the two sides can be compared.
 
-The results are stated and used in *Airlock: what the attacks cost* (H. Hayton, 2026). Appendix B
+The results are stated and used in *Airlock technical analysis's inputs to lay narrative* (H. Hayton, 2026). Appendix B
 of that document gives the mathematics in paper form, and its §B.9 lists the declaration here that
 checks each result. The table below is the same map.
 
